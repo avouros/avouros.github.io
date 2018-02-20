@@ -1,0 +1,123 @@
+/*Imported Fonts from google-IMPORTANT-First line of css file*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* Move down content because we have a fixed navbar that is 50px tall */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0 0 150px;
+}
+h1,h2,h3,h4,h5 {
+    font-family: Oswald;
+}
+h1,h2,h3,h4,h5 {
+  color:#cac8c8;
+}
+p {
+  color:grey;
+}
+.modal-title {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/*Body-----------------------*/
+.body-edit {
+  background-color:#0a0a0a;
+}
+/*Jumpotron-----------------------*/
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../images/bin_earth_darker.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+/*Boxes Content-----------------------*/
+.card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+        text-align: justify;
+}
+.modal6-style {
+  text-align: center;
+}
+/*Footer-----------------------*/
+footer {
+    background: #151414;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+.buttonf{
+    background-color: black;
+    color: #0065FF;
+    border: 0px;	
+}
+.buttonf:hover{
+	background-color: black;
+	border: 0px;
+}
+.buttonf:focus{
+	background-color: black;
+	color: #0065FF;	
+	border: 0px;
+}
+
+  /* Animation Timers
+  ---------------------------------*/
+  .delay-02s {
+  	animation-delay: 0.2s;
+  	-webkit-animation-delay: 0.2s;
+  }
+  .delay-03s {
+  	animation-delay: 0.3s;
+  	-webkit-animation-delay: 0.3s;
+  }
+  .delay-04s {
+  	animation-delay: 0.4s;
+  	-webkit-animation-delay: 0.4s;
+  }
+
+  .delay-05s {
+  	animation-delay: 0.5s;
+  	-webkit-animation-delay: 0.5s;
+  }
+  .delay-06s {
+  	animation-delay: 0.6s;
+  	-webkit-animation-delay: 0.6s;
+  }
+
+  .delay-07s {
+  	animation-delay: 0.7s;
+  	-webkit-animation-delay: 0.7s;
+  }
+  .delay-08s {
+  	animation-delay: 0.8s;
+  	-webkit-animation-delay: 0.8s;
+  }
+
+  .delay-09s {
+  	animation-delay: 0.9s;
+  	-webkit-animation-delay: 0.9s;
+  }
+  .delay-1s {
+  	animation-delay: 1s;
+  	-webkit-animation-delay: 1s;
+  }
+  .delay-12s {
+  	animation-delay: 1.2s;
+  	-webkit-animation-delay: 1.2s;
+  }
