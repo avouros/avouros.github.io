@@ -18,6 +18,7 @@ h1,h2,h3,h4,h5 {
 }
 p {
   color:grey;
+  text-align: left;
 }
 .modal-title {
   color: black;
